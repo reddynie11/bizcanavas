@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Wizard</title>
+</head>
+<body style="overflow : hidden">
+
+    <section class="bg-info page">
+        
+        <div class="container"> 
+            <div class="jumbotron jumbotron-fluid p-5">
+                        
+                        <h4 class="text-center mb-3">Please enter the below details to generate your "Business Model Canvas"</h4>
+                            <form action="/users" method="POST">
+
+                                <div class="form-row">
+                                    <div class="col-6">
+                                        <label class="text-left" for="">Step 1: KEY PARTNERS</label>
+                                        <textarea class="form-control" name="partner" rows="2" maxlength="100" placeholder="" required></textarea>
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="text-left" for="">Step 2: KEY ACTIVITIES</label>
+                                        <textarea class="form-control" name="activity" rows="2" maxlength="100" placeholder="" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-row mt-2">
+                                        <div class="col-6">
+                                            <label class="text-left" for="">Step 3: KEY RESOURCE</label>
+                                            <textarea class="form-control" name="resource" rows="2" maxlength="100" placeholder="" required></textarea>
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="text-left" for="">Step 4: VALUE PROPOSITION</label>
+                                            <textarea class="form-control" name="value" rows="2" maxlength="100" placeholder="" required></textarea>
+                                        </div>
+                                </div>
+
+                                <div class="form-row mt-2">
+                                        <div class="col-6">
+                                            <label class="text-left" for="">Step 5: CUSTOMER RELATIONSHIP</label>
+                                            <textarea class="form-control" name="relation" rows="2" maxlength="100" placeholder="" required></textarea>
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="text-left" for="">Step 6: CHANNELS </label>
+                                            <textarea class="form-control" name="channel" rows="2" maxlength="100" placeholder="" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row mt-2">
+                                            <div class="col-6">
+                                                <label class="text-left" for="">Step 7: CUSTOMER SEGMENT</label>
+                                                <textarea class="form-control" name="segment" rows="2" maxlength="100" placeholder="" required></textarea>
+                                            </div>
+                                            <div class="col-6">
+                                                <label class="text-left" for="">Step 8: COST STRUCTURE </label>
+                                                <textarea class="form-control" name="cost" rows="2" maxlength="100" placeholder="" required></textarea>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="form-row mt-2">
+                                                <div class="col-6">
+                                                    <label class="text-left" for="">Step 9: REVENUE STREAMS</label>
+                                                    <textarea class="form-control" name="revenue" rows="2" maxlength="100" placeholder="" required></textarea>
+                                                </div>
+                                                
+
+                                               
+                                            </div>
+                            <div class="d-flex flex-row-reverse">
+                                <button class="btn btn-success px-3" type="submit">GENERATE</button>
+                            </div>
+
+
+                            </form>
+
+
+        </div>
+    </section>
+
+
+
+
+          
+
+</body>
+</html>
